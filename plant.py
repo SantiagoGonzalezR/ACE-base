@@ -7,7 +7,7 @@ class plant:
   #(id, oyr)
   #plantilla[1].oyr[num]
 
-  def init (self):
+  def __init__ (self):
     self.incorrectas = []
     self.oyr={}
     self.plantilla=()
