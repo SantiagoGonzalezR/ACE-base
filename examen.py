@@ -22,7 +22,7 @@ class examen:
     answ.close()
     #Agregar cada pregunta al examen
     while self.can_preguntas>0:
-      self.listaTemp.append(pregunta(curso,grupo,nombre))
+      self.listaTemp.append(pregunta(curso,grupo))
 
       for i in range(len(self.listaTemp)):
         print(self.listaTemp[i])

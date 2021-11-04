@@ -1,17 +1,8 @@
 class plant:
-  #ID_plantilla = ""
-  #incorrectas=[]
-  #enunciado=""
-  #oyr={}
-  #plantilla=()
-  #(id, oyr)
-  #plantilla[1].oyr[num]
-
   def __init__ (self):
     self.incorrectas = []
     self.oyr={}
     self.plantilla=()
-    ##sacar el tema atraves del get del banco de plantilla
     self.ID_plantilla=input('Ingrese el codigo de la plantilla a crear: ')
     self.enunciado=input('Ingrese el enunciado de la plantilla a crear: (el espacio a rellenar debe estar escrito y separado entre espacios como: /// ) ')
     x=int(input('¿Cuántas variantes de la plantilla quiere hacer? (Cuántas preguntas basadas en esta plantilla) '))

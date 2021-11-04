@@ -10,6 +10,7 @@
 #   mycursor = mydb.cursor()
 #
 # mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
+import pprint
 from curso import *
 from examen import *
 from grupo import *
@@ -77,6 +78,8 @@ class Main:
         print(self.nombres[ndx])
         cur=self.cursos[ndx]
         curso.get(self.cursos[ndx])
+        #ENCONTRAR MANERA DE QUE SE PUEDA ACCEDER A LOS BANCOS DE PREGUNTAS DE CADA CURSO Y QUE MUESTRE
+        #              LAS PLANTILLAS (ITERACIÓN 2)
         temp=1
       except:
         ndx = -1
